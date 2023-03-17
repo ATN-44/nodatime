@@ -6,4 +6,8 @@
   <ItemGroup>
     <Compile Include="..\..\lib\commandline\*.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+  </ItemGroup>
 </Project>

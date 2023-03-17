@@ -528,10 +528,12 @@ namespace NodaTime.TzdbCompiler.Test.Tzdb
         [Test]
         public void Parse_RuleWithType()
         {
-            string line = "Rule BrokenRule 2010 2020 odd Apr Sun>=1 2:00 1:00 D\n";
-            var exception = Assert.Throws<NotImplementedException>(() => ParseText(line));            
-            StringAssert.Contains("'BrokenRule'", exception.Message);
-            StringAssert.Contains("'odd'", exception.Message);
+            throw new NotImplementedException();
+
+            //string line = "Rule BrokenRule 2010 2020 odd Apr Sun>=1 2:00 1:00 D\n";
+            //var exception = Assert.Throws<NotImplementedException>(() => ParseText(line));            
+            //StringAssert.Contains("'BrokenRule'", exception.Message);
+            //StringAssert.Contains("'odd'", exception.Message);
         }
 
         /// <summary>
